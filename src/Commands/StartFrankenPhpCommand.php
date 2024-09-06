@@ -154,7 +154,6 @@ class StartFrankenPhpCommand extends Command implements SignalableCommandInterfa
      * Check if XDebug is installed and enabled.
      *
      * @param string $frankenPhpBinary
-     *
      * @return bool
      */
     protected function debugModeEnabled($frankenPhpBinary)
